@@ -67,3 +67,6 @@ CC BY-SA 4.0
 Attribution-ShareAlike 4.0 International
 > You must give appropriate credit. If you remix, transform, or build upon this work, you must distribute your contributions under the same license.
 > 署名-相同方式共享协议：二次分发、修改作品时，必须标注原作者；衍生作品需要沿用相同开源协议。
+
+## Preview 预览图
+![同位素元素周期表预览](images/main-tables/05-isotopic-periodic-table.png)
