@@ -37,8 +37,8 @@ Features:
   放射性同位素代表列表（第二页）
 
 #### Source File
-- Adobe Illustrator source file: `.ai` project source for all charts, text remains editable
-  Adobe Illustrator 源文件：整套图表的工程源文件，文字保留可编辑状态
+- Adobe Illustrator source files: Separate `.ai` project for each chart, text remains editable
+  Adobe Illustrator 源文件：每张图表独立的`.ai`工程文件，文字保留可编辑状态
 
 ### Font Notice 字体说明
 Fonts used: STIX Two & LXGW WenKai (霞鹜文楷). Both licensed under SIL OFL 1.1.
