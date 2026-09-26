@@ -1,20 +1,24 @@
 # isotopic-periodic-table-series
-## Self-made Academic Periodic Table Collection (Isotopic Version)
-自制学术向全套元素周期表系列（同位素版）
+## Self-made Academic Periodic Table Collection (Isotopic Version as core work)
+自制学术全套元素周期表系列（同位素版本为本项目核心工作量）
 > Project Goal: Iterative, finely annotated periodic table charts for chemistry & nuclide enthusiasts.
-> 项目目的：持续迭代、精细标注的周期表图集，面向化学、核素爱好者。
+> 项目目的：持续迭代、精细标注的多套周期表图集，面向化学、核素爱好者。
 
-## 📌 Release: 2026-09-26
-### 📌 发布版本：2026-09-26
+## 🎇 Release: 2026-09-26
+### ✨ 发布版本：2026-09-26
 Initial upload to GitHub, full set of academic periodic charts.
 首次上传至GitHub，全套学术周期表图集。
+
 Features:
+- 5 distinct academic periodic table charts in total
+包含5张不同体系的学术元素周期表
 - All charts added with author signature
-  全部图表添加作者铭牌
-- Isotopic periodic table annotated with short-lived transient nuclides dynamically produced inside stars
-  同位素周期表标注恒星内动态生成的短命瞬态核素
+全部图表添加作者铭牌
+- The core isotopic periodic table annotated with short-lived transient nuclides dynamically produced inside stars
+核心同位素周期表标注恒星内动态生成的短命瞬态核素
 - Legend for quasi-stable nuclides (quasi-stable)
-  设置准稳定核素图例（quasi-stable）
+设置准稳定核素图例（quasi-stable）
+
 
 ## 🧾 Included Materials
 ### 🧾 包含资料清单
