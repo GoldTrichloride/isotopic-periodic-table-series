@@ -36,6 +36,10 @@ Features:
 - Representative list of radioactive isotopes (Page 2)
   放射性同位素代表列表（第二页）
 
+#### 📁 Data Files 数据文件
+- `/data/nuclide-count-stat.xlsx`：核素统计表，记录各元素同位素质量数范围与同位素种类统计
+- `/data/IPAs.txt`：元素英文名称国际音标列表
+
 #### Source File
 - Adobe Illustrator source files: Separate `.ai` project for each chart, text remains editable
   Adobe Illustrator 源文件：每张图表独立的`.ai`工程文件，文字保留可编辑状态
