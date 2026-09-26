@@ -62,11 +62,11 @@ Source .ai file is provided for further annotation and modification under CC BY-
 For chemistry olympiad, inorganic chemistry and nuclear physics enthusiasts.
 适合化竞、无机化学、核物理爱好者参考学习。
 
-## 📜 License
-CC BY-SA 4.0
-Attribution-ShareAlike 4.0 International
-> You must give appropriate credit. If you remix, transform, or build upon this work, you must distribute your contributions under the same license.
-> 署名-相同方式共享协议：二次分发、修改作品时，必须标注原作者；衍生作品需要沿用相同开源协议。
+## 📜 License 许可协议
+This work is licensed under CC BY-SA 4.0 International.
+本作品采用知识共享署名-相同方式共享 4.0 国际许可协议进行许可。
+See the [LICENSE](./LICENSE) file for full license text.
+完整协议文本请参阅 [LICENSE](./LICENSE) 文件。
 
 ## Preview 预览图
 ![同位素元素周期表预览](images/main-tables/05-isotopic-periodic-table.png)
