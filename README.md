@@ -45,6 +45,9 @@ Fonts used: STIX Two & LXGW WenKai (霞鹜文楷). Both licensed under SIL OFL 1
 本图集使用字体：STIX Two、霞鹜文楷，两款字体均采用 SIL OFL 1.1 开源协议。
 To edit text inside the `.ai` file, please install these two fonts on your device first.
 如需编辑ai源文件内文字，请预先安装上述两款字体。
+Download 下载链接：
+- STIX Two: https://github.com/stipub/stixfonts
+- LXGW WenKai (霞鹜文楷): https://github.com/lxgw/LxgwWenKai
 
 ## 📖 Instructions
 ### 使用说明
