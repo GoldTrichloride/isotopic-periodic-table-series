@@ -40,9 +40,13 @@ Features:
 - Representative list of radioactive isotopes (Page 2)
   放射性同位素代表列表（第二页）
 
-#### 📁 Data Files 数据文件
+### 📁 Data Files 数据文件
+- `/data/nuclide-count-stat.xlsx`: Nuclide statistics sheet, recording mass number range and isotope count of each element.
 - `/data/nuclide-count-stat.xlsx`：核素统计表，记录各元素同位素质量数范围与同位素种类统计
+- `/data/IPAs.txt`: List of element English names & IPA transcriptions.
 - `/data/IPAs.txt`：元素英文名称国际音标列表
+- `/electro_negativity_colors.cpp`: C++ source, interpolate and generate cell hex-color from Pauling electronegativity.
+- `/electro_negativity_colors.cpp`：C++源码，根据鲍林电负性插值生成周期表单元格十六进制底色。
 
 #### Source File
 - Adobe Illustrator source files: Separate `.ai` project for each chart, text remains editable
