@@ -104,7 +104,7 @@ See the [LICENSE](./LICENSE) file for full license text.
 - On May 28, 2026, I produced the electron‑configuration periodic table. It lists full condensed electron configurations with valence‑shell parts marked red, alongside per‑shell electron counts formatted to fit Oganesson. Spdf block markers are placed on atomic‑number digits: helium belongs to s‑block; lutetium and lawrencium belong to d‑block.
 - 2026年5月28日，完成电子排布版周期表。表中列出完整简化电子排布式，价层部分标红，附带各能层电子数，排版以鿫为边界基准。在原子序数上标记spdf分区：氦归入s区，镥、铹归入d区。
 
-- On June 8, 2026, after clearing speed trials in *A Dance of Fire and Ice‑New Cosmos*, I built a Pauling‑scale electronegativity periodic table. With assistance from Doubao, I wrote C++ code to interpolate gradient background colors. Some electronegativity values for noble gases and super‑heavy elements are theoretical predictions. The resulting color distribution resembles the asymmetry between matter and antimatter in the universe; the whole chart feels like a disco dance floor supervised by periodic‑law and relativistic effects.
+- On June 8, 2026, after clearing speed trials in *A Dance of Fire and Ice‑Neo Cosmos*, I built a Pauling‑scale electronegativity periodic table. With assistance from Doubao, I wrote C++ code to interpolate gradient background colors. Some electronegativity values for noble gases and super‑heavy elements are theoretical predictions. The resulting color distribution resembles the asymmetry between matter and antimatter in the universe; the whole chart feels like a disco dance floor supervised by periodic‑law and relativistic effects.
 - 2026年6月8日，通关《冰与火之舞》新宇宙全部普通关飙速试炼后，制作鲍林标度电负性周期表。在豆包协助下编写C++代码插值生成渐变底色。部分稀有气体与超重元素电负性为理论计算值。生成的色彩分布如同宇宙中正物质与反物质的不对称，整张表仿佛是由元素周期律与相对论效应监制的迪斯科舞池。
 
 - On June 9, 2026, I completed the extended periodic table following Pekka Pyykkö’s model for eighth‑ and ninth‑period elements. Spin‑orbit splitting disturbs the Madelung rule; 8p₁/₂ and 9p₁/₂ orbitals shift to unexpected energy positions. The table spans 14 columns and cannot fit its legend on an A4 canvas.
@@ -119,7 +119,7 @@ See the [LICENSE](./LICENSE) file for full license text.
 - On August 25, 2026, I standardized all non‑Chinese typefaces to the open‑source, commercially‑permitted STIX Two font. I added creation‑date and last‑modified‑date marks in the bottom‑left corner for version tracking.
 - 2026年8月25日，将全部非中文文本统一更换为开源可商用STIX Two字体；左下角标注初创日期与修改日期，用于版本追溯。
 
-- On September 5, 2026, Chinese fonts were migrated from closed‑source Feihua Song to the open‑source, freely‑licensed LXGW WenKai. This brings more humanistic readability and avoids risks from discontinued font maintenance for future new‑created Chinese characters of super‑heavy elements.
+- On September 5, 2026, Chinese fonts were migrated from closed‑source FlyFlowerSong to the open‑source, freely‑licensed LXGW WenKai. This brings more humanistic readability and avoids risks from discontinued font maintenance for future new‑created Chinese characters of super‑heavy elements.
 - 2026年9月5日，中文字体由闭源飞花宋体迁移至开源免费商用霞鹜文楷。阅读更富人文气息，同时规避未来超重元素新造字的字体维护风险。
 
 - On September 12, 2026, I launched the **Element Dossier** series. Each element receives its own dossier recording basic data, physical‑chemical properties and representative chemical equations, for deeper exploration of elemental chemistry.
