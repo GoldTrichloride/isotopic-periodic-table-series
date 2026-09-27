@@ -8,32 +8,32 @@
 
 using namespace std;
 
-// 5 gradient anchor points: Red ¡ú Orange ¡ú Yellow ¡ú Green ¡ú Blue
-// 5¸ö½¥±äÃªµã£ººì ¡ú ³È ¡ú »Æ ¡ú ÂÌ ¡ú À¶
+// 5 gradient anchor points: Red â†’ Orange â†’ Yellow â†’ Green â†’ Blue
+// 5ä¸ªæ¸å˜é”šç‚¹ï¼šçº¢ â†’ æ©™ â†’ é»„ â†’ ç»¿ â†’ è“
 const int anchors[5][4] =
 {
-    {255, 204, 204,  0},   // #FFCCCC Minimum electronegativity£ü#FFCCCC ×îĞ¡µç¸ºĞÔ
+    {255, 204, 204,  0},   // #FFCCCC Minimum electronegativityï½œ#FFCCCC æœ€å°ç”µè´Ÿæ€§
     {253, 223, 177, 25},   // #FDDFB1
     {254, 248, 166, 50},   // #FEF8A6
     {209, 232, 178, 75},   // #D1E8B2
-    {169, 221, 243, 100}   // #A9DDF3 Maximum electronegativity£ü#A9DDF3 ×î´óµç¸ºĞÔ
+    {169, 221, 243, 100}   // #A9DDF3 Maximum electronegativityï½œ#A9DDF3 æœ€å¤§ç”µè´Ÿæ€§
 };
 
 /**
  * @brief Convert Pauling electronegativity value to hex?color string
  * @param chi Pauling electronegativity
  * @return Hex color string e.g. "#RRGGBB"
- * @brief ½«±«ÁÖµç¸ºĞÔÊıÖµ×ª»»ÎªÊ®Áù½øÖÆÑÕÉ«×Ö·û´®
- * @param chi ±«ÁÖ±ê¶Èµç¸ºĞÔ
- * @return Ê®Áù½øÖÆÑÕÉ«×Ö·û´®£¬ÀıÈç "#RRGGBB"
+ * @brief å°†é²æ—ç”µè´Ÿæ€§æ•°å€¼è½¬æ¢ä¸ºåå…­è¿›åˆ¶é¢œè‰²å­—ç¬¦ä¸²
+ * @param chi é²æ—æ ‡åº¦ç”µè´Ÿæ€§
+ * @return åå…­è¿›åˆ¶é¢œè‰²å­—ç¬¦ä¸²ï¼Œä¾‹å¦‚ "#RRGGBB"
  */
 string chi2hex(double chi)
 {
     // Pauling electronegativity range: 0.7 ~ 4.0
-    // ±«ÁÖµç¸ºĞÔÈ¡Öµ·¶Î§£º0.7 ~ 4.0
+    // é²æ—ç”µè´Ÿæ€§å–å€¼èŒƒå›´ï¼š0.7 ~ 4.0
     double t = (chi - 0.7) / 3.3;
-    if (t < 0.0) t = 0.0;   // Clamp to lower bound£üÏŞÖÆÎªÏÂ½ç
-    if (t > 1.0) t = 1.0;   // Clamp to upper bound£üÏŞÖÆÎªÉÏ½ç
+    if (t < 0.0) t = 0.0;   // Clamp to lower boundï½œé™åˆ¶ä¸ºä¸‹ç•Œ
+    if (t > 1.0) t = 1.0;   // Clamp to upper boundï½œé™åˆ¶ä¸ºä¸Šç•Œ
     int t_pct = (int)round(t * 100);
 
     int r, g, b;
@@ -74,7 +74,7 @@ string chi2hex(double chi)
 }
 
 // Element data structure: atomic number, symbol, Pauling electronegativity
-// ÔªËØ½á¹¹Ìå£ºÔ­×ÓĞòÊı¡¢ÔªËØ·ûºÅ¡¢±«ÁÖµç¸ºĞÔ
+// å…ƒç´ ç»“æ„ä½“ï¼šåŸå­åºæ•°ã€å…ƒç´ ç¬¦å·ã€é²æ—ç”µè´Ÿæ€§
 struct Element
 {
     int num;
@@ -84,8 +84,8 @@ struct Element
 
 int main()
 {
-    // Element list: atomic number, symbol, Pauling?scale electronegativity
-    // ÔªËØÁĞ±í£ºÔ­×ÓĞòÊı£¬ÔªËØ·ûºÅ£¬±«ÁÖ±ê¶Èµç¸ºĞÔ£¨²¿·Ö³¬ÖØÔªËØ¡¢Ï¡ÓĞÆøÌåÎªÀíÂÛ¼ÆËãÖµ£©
+    // Element list: atomic number, symbol, Pauling scale electronegativity (Some values for superheavy elements and noble gases are theoretical calculated values)
+    // å…ƒç´ åˆ—è¡¨ï¼šåŸå­åºæ•°ï¼Œå…ƒç´ ç¬¦å·ï¼Œé²æ—æ ‡åº¦ç”µè´Ÿæ€§ï¼ˆéƒ¨åˆ†è¶…é‡å…ƒç´ ã€ç¨€æœ‰æ°”ä½“ä¸ºç†è®ºè®¡ç®—å€¼ï¼‰
     vector<Element> elements = {
         {1,"H",2.20},      {2,"He",3.89},      {3,"Li",0.98},     {4,"Be",1.57},
         {5,"B",2.04},      {6,"C",2.55},     {7,"N",3.04},     {8,"O",3.44},
@@ -119,10 +119,10 @@ int main()
         {117,"Ts",2.20}, {118,"Og",2.59}
     };
 
-    // Output CSV?style text file
-    // Êä³öCSV¸ñÊ½ÎÄ±¾ÎÄ¼ş
+    // Output CSV style text file
+    // è¾“å‡ºCSVæ ¼å¼æ–‡æœ¬æ–‡ä»¶
     ofstream fout("electro_negativity_colors.txt");
-    fout << "ĞòºÅ NO,·ûºÅ Symbol,µç¸ºĞÔ ¦Ö,ÑÕÉ«´úÂë Color\n";
+    fout << "åºå· NO,ç¬¦å· Symbol,ç”µè´Ÿæ€§ Ï‡,é¢œè‰²ä»£ç  Color\n";
 
     for (auto& e : elements)
 	{
@@ -132,7 +132,7 @@ int main()
     }
 
     fout.close();
-    cout << "? Generated file: electro_negativity_colors.txt" << endl;
-    cout << "? ÒÑÉú³ÉÎÄ¼ş£ºelectro_negativity_colors.txt" << endl;
+    cout << "Generated file: electro_negativity_colors.txt" << endl;
+    cout << "å·²ç”Ÿæˆæ–‡ä»¶ï¼šelectro_negativity_colors.txt" << endl;
     return 0;
 }
