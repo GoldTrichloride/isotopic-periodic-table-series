@@ -127,3 +127,6 @@ See the [LICENSE](./LICENSE) file for full license text.
 
 - On September 26, 2026, I published the complete collection of academic periodic tables on GitHub under the CC BY‑SA 4.0 International Public License. The goal is to permanently preserve these works so they can continue to serve chemistry enthusiasts, independent of any single web community.
 - 2026年9月26日，全套学术周期表在GitHub以 CC BY‑SA 4.0 国际协议开源发布。目的是永久留存这份作品，使其可以持续服务化学爱好者，不再依附任何单一网络社群。
+
+- This series remains under continuous maintenance. Corrections and new additions will be committed to this repository.
+- 本系列项目仍在持续维护，勘误与新增内容会持续提交至本仓库。
