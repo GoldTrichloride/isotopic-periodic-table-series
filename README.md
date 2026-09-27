@@ -47,6 +47,8 @@ Features:
 - `/data/IPAs.txt`：元素英文名称国际音标列表
 - `/electro_negativity_colors.cpp`: C++ source, interpolate and generate cell hex-color from Pauling electronegativity.
 - `/electro_negativity_colors.cpp`：C++源码，根据鲍林电负性插值生成周期表单元格十六进制底色。
+- `source/Blank_Periodic_Table_Base.xlsx`: Blank base template of periodic table grid in Excel format.
+- `source/Blank_Periodic_Table_Base.xlsx`：Excel格式空白周期表网格基底模板。
 
 #### Source File
 - Adobe Illustrator source files: Separate `.ai` project for each chart, text remains editable
