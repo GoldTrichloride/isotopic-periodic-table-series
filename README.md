@@ -9,16 +9,21 @@
 Initial upload to GitHub, full set of academic periodic charts.
 首次上传至GitHub，全套学术周期表图集。
 
-Features:
+## 📌 Update: 2026-10-05
+## 📌 更新: 2026-10-05
+Added ionization-energy themed periodic table. The table lists the 1st, 2nd, 3rd and 4th ionization energies of each element, with the first ionization value displayed prominently. Corresponding C++ source script for gradient color generation is also added to the repository.
+新增电离能主题周期表。该表收录各元素第一、二、三、四电离能，将第一电离能数值作为主视觉重点展示。配套用于生成渐变色的C++源码同步入库。
+
+## Features:
+## 项目特性：
 - 6 distinct academic periodic table charts in total
 包含6张不同体系的学术元素周期表
 - All charts added with author signature
 全部图表添加作者铭牌
 - The core isotopic periodic table annotated with short-lived transient nuclides dynamically produced inside stars
-核心同位素周期表标注恒星内动态生成的短命瞬态核素
+核心同位素周期表标注恒星内部动态生成的短寿命瞬态核素
 - Legend for quasi-stable nuclides (quasi-stable)
 设置准稳定核素图例（quasi-stable）
-
 
 ## 🧾 Included Materials
 ### 🧾 包含资料清单
@@ -34,7 +39,7 @@ Features:
 - Isotopic Periodic Table (Core: quasi-stable nuclides, stellar transient nuclides)
   同位素元素周期表（核心：准稳定核素、恒星瞬态核素标记）
 - Ionization energy periodic table
-电离能版元素周期表
+  电离能版元素周期表
 
 #### 2 Supplementary Sheets（2页配套附表）
 - Representative list of radioactive isotopes (Page 1)
@@ -132,8 +137,8 @@ See the [LICENSE](./LICENSE) file for full license text.
 - On September 26, 2026, I published the complete collection of academic periodic tables on GitHub under the CC BY‑SA 4.0 International Public License. The goal is to permanently preserve these works so they can continue to serve chemistry enthusiasts, independent of any single web community.
 - 2026年9月26日，全套学术周期表在GitHub以 CC BY‑SA 4.0 国际协议开源发布。目的是永久留存这份作品，使其可以持续服务化学爱好者，不再依附任何单一网络社群。
 
-- On October 5, 2026, I finished the first-ionization-energy themed periodic table. I wrote a C++ script to interpolate ionization-energy values and generate gradient hex color codes for each cell, visualizing the trend of first ionization energy across elements.
-- 2026年10月5日，完成第一电离能主题周期表。编写C++脚本对电离能数值插值，为单元格生成渐变色十六进制色值，可视化展示元素第一电离能的变化趋势。
+- On October 5, 2026, I finished the ionization-energy themed periodic table. It lists the 1st, 2nd, 3rd and 4th ionization energies of each element, with the first ionization value displayed prominently. I wrote a C++ script to interpolate first-ionization-energy values and generate gradient hex color codes for each cell, visualizing the periodic trend of ionization energy across elements.
+- 2026年10月5日，完成电离能主题周期表。表内收录各元素第一、二、三、四电离能，将第一电离能数值作为主视觉重点展示。编写C++脚本对第一电离能数值插值，为单元格生成渐变色十六进制色值，直观呈现元素电离能的周期性递变规律。
 
 - This series remains under continuous maintenance. Corrections and new additions will be committed to this repository.
 - 本系列项目仍在持续维护，勘误与新增内容会持续提交至本仓库。
