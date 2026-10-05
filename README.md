@@ -10,8 +10,8 @@ Initial upload to GitHub, full set of academic periodic charts.
 首次上传至GitHub，全套学术周期表图集。
 
 Features:
-- 5 distinct academic periodic table charts in total
-包含5张不同体系的学术元素周期表
+- 6 distinct academic periodic table charts in total
+包含6张不同体系的学术元素周期表
 - All charts added with author signature
 全部图表添加作者铭牌
 - The core isotopic periodic table annotated with short-lived transient nuclides dynamically produced inside stars
@@ -22,7 +22,7 @@ Features:
 
 ## 🧾 Included Materials
 ### 🧾 包含资料清单
-#### 5 Main Academic Periodic Tables（5张主学术周期表）
+#### 6 Main Academic Periodic Tables（6张主学术周期表）
 - Chinese-English pronunciation periodic table
   中英文读音版元素周期表
 - Electron configuration periodic table
@@ -33,6 +33,8 @@ Features:
   佩卡·皮寇（Pekka Pyykkö）模型扩展元素周期表
 - Isotopic Periodic Table (Core: quasi-stable nuclides, stellar transient nuclides)
   同位素元素周期表（核心：准稳定核素、恒星瞬态核素标记）
+- Ionization energy periodic table
+电离能版元素周期表
 
 #### 2 Supplementary Sheets（2页配套附表）
 - Representative list of radioactive isotopes (Page 1)
@@ -47,6 +49,8 @@ Features:
 - `/data/IPAs.txt`：元素英文名称国际音标列表
 - `/electro_negativity_colors.cpp`: C++ source, interpolate and generate cell hex-color from Pauling electronegativity.
 - `/electro_negativity_colors.cpp`：C++源码，根据鲍林电负性插值生成周期表单元格十六进制底色。
+- `/first_ionization_Energy_colors.cpp`: C++ source, interpolate and generate cell hex-color from first ionization energy.
+- `/first_ionization_Energy_colors.cpp`：C++源码，根据第一电离能插值生成周期表单元格十六进制底色。
 - `source/Blank_Periodic_Table_Base.xlsx`: Blank base template of periodic table grid in Excel format.
 - `source/Blank_Periodic_Table_Base.xlsx`：Excel格式空白周期表网格基底模板。
 
@@ -127,6 +131,9 @@ See the [LICENSE](./LICENSE) file for full license text.
 
 - On September 26, 2026, I published the complete collection of academic periodic tables on GitHub under the CC BY‑SA 4.0 International Public License. The goal is to permanently preserve these works so they can continue to serve chemistry enthusiasts, independent of any single web community.
 - 2026年9月26日，全套学术周期表在GitHub以 CC BY‑SA 4.0 国际协议开源发布。目的是永久留存这份作品，使其可以持续服务化学爱好者，不再依附任何单一网络社群。
+
+- On October 5, 2026, I finished the first-ionization-energy themed periodic table. I wrote a C++ script to interpolate ionization-energy values and generate gradient hex color codes for each cell, visualizing the trend of first ionization energy across elements.
+- 2026年10月5日，完成第一电离能主题周期表。编写C++脚本对电离能数值插值，为单元格生成渐变色十六进制色值，可视化展示元素第一电离能的变化趋势。
 
 - This series remains under continuous maintenance. Corrections and new additions will be committed to this repository.
 - 本系列项目仍在持续维护，勘误与新增内容会持续提交至本仓库。
