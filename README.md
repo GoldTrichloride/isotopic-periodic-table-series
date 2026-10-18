@@ -9,14 +9,14 @@
 Initial upload to GitHub, full set of academic periodic charts.
 首次上传至GitHub，全套学术周期表图集。
 
-## 📌 Update: 2026-10-05
-## 📌 更新: 2026-10-05
-Added ionization-energy themed periodic table. The table lists the 1st, 2nd, 3rd and 4th ionization energies of each element, with the first ionization value displayed prominently. Corresponding C++ source script for gradient color generation is also added to the repository.
-新增电离能主题周期表。该表收录各元素第一、二、三、四电离能，将第一电离能数值作为主视觉重点展示。配套用于生成渐变色的C++源码同步入库。
+## 🚀 Update: 2026-10-18
+### ✨ 更新：2026-10-18
+Added **Inception Periodic Table**. This table marks radioactive elements in red, synthetic elements with hollow font. It includes symbol etymology annotation for elements whose chemical symbol differs from their common English name (Na, K, Fe, Cu, Ag, Sn, Sb, W, Au, Hg, Pb). Contains the Easter Egg: *Serendipitously hits the baby schema*.
+新增**Inception伊始元素周期表**。该表红色标记放射性元素，空心字体标记人工合成元素；添加符号词源注释，收录英文常用名与化学符号不一致的元素（Na, K, Fe, Cu, Ag, Sn, Sb, W, Au, Hg, Pb）。内置彩蛋文字：*Serendipitously hits the baby schema*。
 
 ## Features:
 ## 项目特性：
-- 6 distinct academic periodic table charts in total
+- 7 distinct academic periodic table charts in total
 包含6张不同体系的学术元素周期表
 - All charts added with author signature
 全部图表添加作者铭牌
@@ -27,7 +27,9 @@ Added ionization-energy themed periodic table. The table lists the 1st, 2nd, 3rd
 
 ## 🧾 Included Materials
 ### 🧾 包含资料清单
-#### 6 Main Academic Periodic Tables（6张主学术周期表）
+#### 7 Main Academic Periodic Tables（7张主学术周期表）
+- Inception periodic table
+  伊始元素周期表
 - Chinese-English pronunciation periodic table
   中英文读音版元素周期表
 - Electron configuration periodic table
@@ -139,6 +141,9 @@ See the [LICENSE](./LICENSE) file for full license text.
 
 - On October 5, 2026, I finished the ionization-energy themed periodic table. It lists the 1st, 2nd, 3rd and 4th ionization energies of each element, with the first ionization value displayed prominently. I wrote a C++ script to interpolate first-ionization-energy values and generate gradient hex color codes for each cell, visualizing the periodic trend of ionization energy across elements.
 - 2026年10月5日，完成电离能主题周期表。表内收录各元素第一、二、三、四电离能，将第一电离能数值作为主视觉重点展示。编写C++脚本对第一电离能数值插值，为单元格生成渐变色十六进制色值，直观呈现元素电离能的周期性递变规律。
+
+- On October 18, 2026, I completed the **Inception Periodic Table**. Radioactive elements are marked in red, synthetic elements use hollow font outlines. The chart adds symbol etymology annotations for elements whose chemical symbol differs from their common English name (Na, K, Fe, Cu, Ag, Sn, Sb, W, Au, Hg, Pb). It contains an Easter Egg: *Serendipitously hits the baby schema*. A Bilibili recording of the full Illustrator drafting process was released alongside this update.
+- 2026年10月18日，完成**Inception伊始元素周期表**。放射性元素使用红色标注，人工合成元素采用空心轮廓字体；针对英文常用名与化学符号不一致的元素增加符号词源注释（Na, K, Fe, Cu, Ag, Sn, Sb, W, Au, Hg, Pb），内含彩蛋文字：*Serendipitously hits the baby schema*。同步发布Illustrator矢量绘制全过程的B站实录视频。
 
 - This series remains under continuous maintenance. Corrections and new additions will be committed to this repository.
 - 本系列项目仍在持续维护，勘误与新增内容会持续提交至本仓库。
