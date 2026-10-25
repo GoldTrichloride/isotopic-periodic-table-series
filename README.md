@@ -9,15 +9,22 @@
 Initial upload to GitHub, full set of academic periodic charts.
 首次上传至GitHub，全套学术周期表图集。
 
-## 🚀 Update: 2026-10-18
-### ✨ 更新：2026-10-18
-Added **Inception Periodic Table**. This table marks radioactive elements in red, synthetic elements with hollow font. It includes symbol etymology annotation for elements whose chemical symbol differs from their common English name (Na, K, Fe, Cu, Ag, Sn, Sb, W, Au, Hg, Pb). Contains the Easter Egg: *Serendipitously hits the baby schema*.
-新增**Inception伊始元素周期表**。该表红色标记放射性元素，空心字体标记人工合成元素；添加符号词源注释，收录英文常用名与化学符号不一致的元素（Na, K, Fe, Cu, Ag, Sn, Sb, W, Au, Hg, Pb）。内置彩蛋文字：*Serendipitously hits the baby schema*。
+## 📌 Update: 2026-10-25
+### ✨ 更新: 2026-10-25
+Added **Quick-Reference Periodic Table**.
+This bilingual pocket-style table marks radioactive elements in red, synthetic elements with hollow markers.
+Group labels (IA, IIA, IIIB ... 0) are added for quick positioning.
+Fonts: LXGW WenKai + STIX Two (OFL compliant).
+
+新增**便携速查元素周期表**。
+该双语便携表以红色标注放射性元素、空心标记人造元素；
+放置主族编号（IA、IIA、IIIB … 0族）方便快速定位；
+字体采用霞鹜文楷 + STIX Two，遵循OFL开源协议。
 
 ## Features:
 ## 项目特性：
-- 7 distinct academic periodic table charts in total
-包含6张不同体系的学术元素周期表
+- 8 distinct academic periodic table charts in total
+包含8张不同体系的学术元素周期表
 - All charts added with author signature
 全部图表添加作者铭牌
 - The core isotopic periodic table annotated with short-lived transient nuclides dynamically produced inside stars
@@ -144,6 +151,9 @@ See the [LICENSE](./LICENSE) file for full license text.
 
 - On October 18, 2026, I completed the **Inception Periodic Table**. Radioactive elements are marked in red, synthetic elements use hollow font outlines. The chart adds symbol etymology annotations for elements whose chemical symbol differs from their common English name (Na, K, Fe, Cu, Ag, Sn, Sb, W, Au, Hg, Pb). It contains an Easter Egg: *Serendipitously hits the baby schema*. A Bilibili recording of the full Illustrator drafting process was released alongside this update.
 - 2026年10月18日，完成**Inception伊始元素周期表**。放射性元素使用红色标注，人工合成元素采用空心轮廓字体；针对英文常用名与化学符号不一致的元素增加符号词源注释（Na, K, Fe, Cu, Ag, Sn, Sb, W, Au, Hg, Pb），内含彩蛋文字：*Serendipitously hits the baby schema*。同步发布Illustrator矢量绘制全过程的B站实录视频。
+
+- On October 25, 2026, I completed the **Quick-Reference Portable Periodic Table**. This bilingual pocket table keeps group number labels (IA, IIA, IIIB … 0), marks radioactive elements in red and synthetic elements with hollow markers. It uses LXGW WenKai + STIX Two open fonts. A Bilibili timelapse recording of the whole Illustrator drafting workflow was released alongside this update.
+- 2026年10月25日，完成**便携速查元素周期表 Quick-Reference Periodic Table**。这款双语便携表保持主族编号（IA、IIA、IIIB … 0族），红色标注放射性元素、空心标记人造元素；字体采用霞鹜文楷 + STIX Two 开源字体。同步发布Illustrator矢量绘制全过程的B站录屏视频。
 
 - This series remains under continuous maintenance. Corrections and new additions will be committed to this repository.
 - 本系列项目仍在持续维护，勘误与新增内容会持续提交至本仓库。
