@@ -4,6 +4,9 @@
 > Project Goal: Iterative, finely annotated periodic table charts for chemistry & nuclide enthusiasts.
 > 项目目的：持续迭代、精细标注的多套周期表图集，面向化学、核素爱好者。
 
+## Cover 封面
+![封面](c-Cover.png)
+
 ## 🎇 First Release: 2026-09-26
 ### ✨ 首发日期：2026-09-26
 Initial upload to GitHub, full set of academic periodic charts.
