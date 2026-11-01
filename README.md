@@ -4,22 +4,15 @@
 > Project Goal: Iterative, finely annotated periodic table charts for chemistry & nuclide enthusiasts.
 > 项目目的：持续迭代、精细标注的多套周期表图集，面向化学、核素爱好者。
 
-## 🎇 Release: 2026-09-26
-### ✨ 发布版本：2026-09-26
+## 🎇 First Release: 2026-09-26
+### ✨ 首发日期：2026-09-26
 Initial upload to GitHub, full set of academic periodic charts.
 首次上传至GitHub，全套学术周期表图集。
 
-## 📌 Update: 2026-10-25
-### ✨ 更新: 2026-10-25
-Added **Quick-Reference Periodic Table**.
-This bilingual pocket-style table marks radioactive elements in red, synthetic elements with hollow markers.
-Group labels (IA, IIA, IIIB ... 0) are added for quick positioning.
-Fonts: LXGW WenKai + STIX Two (OFL compliant).
-
-新增**便携速查元素周期表**。
-该双语便携表以红色标注放射性元素、空心标记人造元素；
-放置主族编号（IA、IIA、IIIB … 0族）方便快速定位；
-字体采用霞鹜文楷 + STIX Two，遵循OFL开源协议。
+## 📌 Update: 2026-11-01
+### ✨ 更新: 2026-11-01
+Added **Cover** — A series index artwork. It adopts the periodic table layout to list all 8 table variants, together with license, font and repository metadata.
+新增**总封面** — 系列索引图，采用周期表版式罗列全部8套图表版本，附带协议、字体与仓库元信息。
 
 ## Features:
 ## 项目特性：
@@ -34,9 +27,12 @@ Fonts: LXGW WenKai + STIX Two (OFL compliant).
 
 ## 🧾 Included Materials
 ### 🧾 包含资料清单
-#### 7 Main Academic Periodic Tables（7张主学术周期表）
+#### Cover （总封面）
+#### 8 Main Academic Periodic Tables（7张主学术周期表）
 - Inception periodic table
   伊始元素周期表
+- Quick-reference periodic table
+  便携速查元素周期表
 - Chinese-English pronunciation periodic table
   中英文读音版元素周期表
 - Electron configuration periodic table
@@ -154,6 +150,9 @@ See the [LICENSE](./LICENSE) file for full license text.
 
 - On October 25, 2026, I completed the **Quick-Reference Portable Periodic Table**. This bilingual pocket table keeps group number labels (IA, IIA, IIIB … 0), marks radioactive elements in red and synthetic elements with hollow markers. It uses LXGW WenKai + STIX Two open fonts. A Bilibili timelapse recording of the whole Illustrator drafting workflow was released alongside this update.
 - 2026年10月25日，完成**便携速查元素周期表 Quick-Reference Periodic Table**。这款双语便携表保持主族编号（IA、IIA、IIIB … 0族），红色标注放射性元素、空心标记人造元素；字体采用霞鹜文楷 + STIX Two 开源字体。同步发布Illustrator矢量绘制全过程的B站录屏视频。
+
+- On November 1, 2026, I added the **Cover**, the index page for this periodic table series.
+- 2026年11月1日，新增**总封面** — 系列索引图，采用周期表版式罗列全部8套图表版本，附带协议、字体与仓库元信息。
 
 - This series remains under continuous maintenance. Corrections and new additions will be committed to this repository.
 - 本系列项目仍在持续维护，勘误与新增内容会持续提交至本仓库。
