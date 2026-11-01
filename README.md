@@ -31,7 +31,7 @@ Added **Cover** — A series index artwork. It adopts the periodic table layout 
 ## 🧾 Included Materials
 ### 🧾 包含资料清单
 #### Cover （总封面）
-#### 8 Main Academic Periodic Tables（7张主学术周期表）
+#### 8 Main Academic Periodic Tables（8张主学术周期表）
 - Inception periodic table
   伊始元素周期表
 - Quick-reference periodic table
