@@ -49,11 +49,13 @@ Added **Cover** — A series index artwork. It adopts the periodic table layout 
 - Ionization energy periodic table
   电离能版元素周期表
 
-#### 2 Supplementary Sheets（2页配套附表）
+#### 3 Supplementary Sheets（3页配套附表）
 - Representative list of radioactive isotopes (Page 1)
   放射性同位素代表列表（第一页）
 - Representative list of radioactive isotopes (Page 2)
   放射性同位素代表列表（第二页）
+- Aufbau Principle
+  构造原理示意图
 
 ### 📁 Data Files 数据文件
 - `/data/nuclide-count-stat.xlsx`: Nuclide statistics sheet, recording mass number range and isotope count of each element.
